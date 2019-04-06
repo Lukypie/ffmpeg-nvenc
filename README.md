@@ -7,6 +7,8 @@ Follow the wiki
 https://github.com/Lukypie/ffmpeg-nvenc/wiki/How-to-compile
 
 
+Note: Don't update if you see some updates unless you want to recompile again
+
 
 FFmpeg README
 =============
