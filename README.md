@@ -9,8 +9,8 @@ sudo apt-get source ffmpeg
 debuild -b -us -uc
 inside the extracted folder to start compiling the debs
 
-and install the .debs you compiled by removing the debug symbols one (rm *dbg.deb*) and the one with the "extra" prefix on them
 
+and install the .debs by removing the debug symbols one (dbg prefix on the file names), do not use the one with "extra" in the filename because they are conflicting with others
 You can find in "releases" the one I compiled
 
 
