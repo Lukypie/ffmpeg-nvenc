@@ -1,17 +1,11 @@
 Hi. This is just a the source code of the Ubuntu ffmpeg debian package, the only modification made is debian/rules and added nvenc and nonfree support with --enable-non-free and --enable-nvenc 
+
 You can compile by yourself by installing the nvenc ffmpeg heders first 
 https://github.com/FFmpeg/nv-codec-headers
-Make sure to have the sources enabled on your sources.list config
 
-sudo apt-get build-dep ffmpeg
-sudo apt-get source ffmpeg
+Follow the wiki
+https://github.com/Lukypie/ffmpeg-nvenc/wiki/How-to-compile
 
-debuild -b -us -uc
-inside the extracted folder to start compiling the debs
-
-
-and install the .debs by removing the debug symbols one (dbg prefix on the file names), do not use the one with "extra" in the filename because they are conflicting with others
-You can find in "releases" the one I compiled
 
 
 FFmpeg README
